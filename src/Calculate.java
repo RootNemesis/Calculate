@@ -17,4 +17,17 @@ public class Calculate {
 			return false;
 		}
 	}
+	public String calculate() {
+		
+		String[] array = {"zero","one","two","three","fore","five","six","seven","eight","nine"};
+		
+		
+		if(this.isOverNumber(number) == true) {
+			
+			return array[this.number];
+		}else {
+			return "Input again";
+		}
+		
+	}
 }
