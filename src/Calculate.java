@@ -21,12 +21,11 @@ public class Calculate {
 		
 		String[] array = {"zero","one","two","three","fore","five","six","seven","eight","nine"};
 		
-		
 		if(this.isOverNumber(number) == true) {
 			
 			return array[this.number];
 		}else {
-			return "Input again";
+			return "Input 0-9";
 		}
 		
 	}
